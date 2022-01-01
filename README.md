@@ -1,6 +1,8 @@
 # Election_Analysis
 
-## Project Overview
+## Overview Of Election Audit: 
+Explain the purpose of this election audit analysis. 
+
 A Colorado Board of Elections employee has given you the following tasks to complete the election audit of a recent local Congressional election. 
 
 1. Calculate the total number of votes cast in the election. 
@@ -15,20 +17,23 @@ A Colorado Board of Elections employee has given you the following tasks to comp
 - Software: Visual Studio Code - Version 1.63.2
 - OS: Windows_NT x64 10.0.19042
 
-## Summary
+## Election Audit Results
+Using a bulleted list, address the following election outcomes. Use images or examples of your code as support where necessary.
 The analysis of the election shows that: 
 - There were "x" votes cast in the election.
-- The candidates were: 
-  - Candidate 1: 
-  - Candidate 2: 
-  - Candidate 3: 
+- Provide a breakdown of the number of votes and the percentage of total votes for each county in the precinct.
+- Which county had the largest number of votes?
+- Provide a breakdown of the number of votes and the percentage of the total votes each candidate received.
 - The candidate results were: 
   - Candidate 1 received "x%" of the vote and "y" number of votes. 
   - Candidate 2 received "x%" of the vote and "y" number of votes.
   - Candidate 3 received "x%" of the vote and "y" number of votes.
+- Which candidate won the election, what was their vote count, and what was their percentage of the total votes?
 - The winner of the election was: 
   - Candidate (1, 2, or 3), who received "x%" of the vote and "y" number of votes. 
 
-## Challenge Overview
-
-## Challenge Summary
+## Election Audit Summary
+In a summary statement, provide a business proposal to the election commission on how this script can be used — with some modifications — for any election. 
+Give at least two examples of how this script can be modified to be used for other elections.
+- Modification Example 1
+- Modification Example 2
