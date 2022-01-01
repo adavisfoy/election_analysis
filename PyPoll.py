@@ -17,6 +17,12 @@ candidate_options = []
 # Declare dictionary for candidate names + vote count incremented by 1
 candidate_votes = {}
 
+# Initialize voting_county variable as list
+voting_counties = []
+
+# Declare dictionary for county names + vote count incremented by 1
+county_votes = {}
+
 # County with Highest Voter Turnout
 highest_voter_county = ""
 highest_county_votes = 0
@@ -26,12 +32,6 @@ highest_county_percentage = 0
 winning_candidate = ""
 winning_count = 0
 winning_percentage = 0
-
-# Initialize voting_county variable as list
-voting_counties = []
-
-# Declare dictionary for county names + vote count incremented by 1
-county_votes = {}
 
 # Open the election results and read the file.
 # Realize that I don't need the "r" below since it's default, but including to clarify for me
@@ -59,7 +59,7 @@ with open(file_to_load) as election_data:
             candidate_votes[candidate_name] = 0
         # Add a vote to applicable candidate's count
         candidate_votes[candidate_name] += 1 
-        # If the county does  not match any existing candidate. . . 
+        # If the county does  not match any existing county. . . 
         if county_name not in voting_counties:
             # Add the county name to the the voting_counties list
             voting_counties.append(county_name)
@@ -95,7 +95,7 @@ with open(file_to_save, "w") as txt_file:
         county_summary = (f"{county_name}: {county_vote_percentage:.1f}% ({county_vote_count:,})\n")
         print(county_summary)
         
-        # Save the candidate results to our text file
+        # Save the county summary results to the text file
         txt_file.write(county_summary) 
 
         # Determine county with highest voter turnout
