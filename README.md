@@ -38,5 +38,21 @@ Analysis of election results is an important component of election oversight. Ti
 
 Some examples of code modification to facilitate future election audits include: 
 - It will be important to ensure that the data set .csv file has the same headers/columns as election_results.csv to ensure that the code can run smoothly. 
+- Alternatively, the **column indexes** would need to be updated to match the new data set if the headers/columns differ. 
+- See the **candidate_name** & **county_name variables** in the code block below where the **column indexes** would need to be updated **within the [ ]**:
+```
+# For each row in the CSV file.
+    for row in reader:
+
+        # Add to the total vote count
+        total_votes = total_votes + 1
+
+        # Get the candidate name from each row.
+        candidate_name = row[2]
+
+        # 3: Extract the county name from each row.
+        # Get the county name from each row using index aka 2nd column, Index 1
+        county_name = row[1]  
+ ```
 - Line 9: file_to_load .csv path to the data set will need to be updated in order to analyze the applicable election results data set.
 - Line 11: file_to_save .txt path for writing the results will need to be updated. 
