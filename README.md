@@ -31,6 +31,8 @@ This election audit analysis revealed the following outcomes:
 - **Winning Candidate Summary:**
   - Candidate 2, **Diana DeGette**, won the election by receiving **73.8%** of the vote with **272,892 votes.**  
 
+![PyPoll_Challenge.py_txt_file.png](Resources/PyPoll_Challenge.py_txt_file.png)
+
 ## Election Audit Summary
 In a summary statement, provide a business proposal to the election commission on how this script can be used — with some modifications — for any election. 
 Give at least two examples of how this script can be modified to be used for other elections.
