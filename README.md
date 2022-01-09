@@ -37,4 +37,6 @@ This election audit analysis revealed the following outcomes:
 Analysis of election results is an important component of election oversight. Timely and accurate election audits are necessary to build public confidence in democratic processes and support the legitimacy of elected officials. This proposal outlines a plan in which this election analysis code can be re-purposed to conduct future election audits in support of these efforts.
 
 Some examples of code modification to facilitate future election audits include: 
-- Modification Example 1
+- It will be important to ensure that the data set .csv file has the same headers/columns as election_results.csv to ensure that the code can run smoothly. 
+- Line 9: file_to_load .csv path to the data set will need to be updated in order to analyze the applicable election results data set.
+- Line 11: file_to_save .txt path for writing the results will need to be updated. 
