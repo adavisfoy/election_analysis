@@ -22,8 +22,8 @@ This election audit analysis revealed the following outcomes:
 - There were **369,711 total votes** cast in this Congressional election.
 - **County Summary - Number of Votes & Percentage of Total Votes in Election Precinct:** 
   - The county with the **highest voter turnout** was **Denver County** with **306,055 votes** constituting **82.8%** of total votes.
-  - Jefferson county had 38,855 votes equating to 10.5% of total votes.
-  - Arapahoe county had 24, 801 votes equating to 6.7% of total votes. 
+  - Jefferson County had 38,855 votes equating to 10.5% of total votes.
+  - Arapahoe County had 24, 801 votes equating to 6.7% of total votes. 
 - **Candidate Summary - Number of Votes & Percentage of Total Votes in Election Precinct:** 
   - Candidate 1, **Charles Casper Stockham**, received 23.0% of the vote with 85,213 votes.  
   - Candidate 2, **Diana DeGette**, received 73.8% of the vote with 272,892 votes.
