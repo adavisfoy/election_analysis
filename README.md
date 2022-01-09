@@ -29,14 +29,32 @@ This election audit analysis revealed the following outcomes:
   - Candidate 2, **Diana DeGette**, received 73.8% of the vote with 272,892 votes.
   - Candidate 3, **Raymon Anthony Doane**, received 3.1% of the vote with 11,606 votes.
 - **Winning Candidate Summary:**
-  - Candidate 2, **Diana DeGette**, won the election by receiving **73.8%** of the vote with **272,892 votes.**  
+  - Candidate 2, **Diana DeGette**, won the election by receiving **73.8%** of the vote with **272,892 votes.** 
+   
+
+
+***Election Audit Results Printed to the Command Line:***
+
+![PyPoll_Challenge.py_terminal.png](Resources/PyPoll_Challenge.py_terminal.png)
+
+
+***Election Audit Results Saved to a Text File:***
 
 ![PyPoll_Challenge.py_txt_file.png](Resources/PyPoll_Challenge.py_txt_file.png)
+
 
 ## Election Audit Summary
 Analysis of election results is an important component of election oversight. Timely and accurate election audits are necessary to build public confidence in democratic processes and support the legitimacy of elected officials. This proposal outlines a plan in which this election analysis code can be re-purposed to conduct future election audits in support of these efforts.
 
 Some examples of code modification to facilitate future election audits include: 
+- The **file_to_load** .csv path to the data set will need to be updated in order to analyze the applicable election results data set. 
+- The **file_to_save** .txt path for writing the results will need to be updated. 
+```
+# Add a variable to load a file from a path.
+file_to_load = os.path.join("Resources", "election_results.csv")
+# Add a variable to save the file to a path.
+file_to_save = os.path.join("analysis", "election_analysis.txt")
+```
 - It will be important to ensure that the data set .csv file has the same headers/columns as election_results.csv to ensure that the code can run smoothly. 
 - Alternatively, the **column indexes** would need to be updated to match the new data set if the headers/columns differ. 
 - See the **candidate_name** & **county_name variables** in the code block below where the **column indexes** would need to be updated **within the [ ]**:
@@ -54,5 +72,4 @@ Some examples of code modification to facilitate future election audits include:
         # Get the county name from each row using index aka 2nd column, Index 1
         county_name = row[1]  
  ```
-- Line 9: file_to_load .csv path to the data set will need to be updated in order to analyze the applicable election results data set.
-- Line 11: file_to_save .txt path for writing the results will need to be updated. 
+
