@@ -34,7 +34,7 @@ This election audit analysis revealed the following outcomes:
 ![PyPoll_Challenge.py_txt_file.png](Resources/PyPoll_Challenge.py_txt_file.png)
 
 ## Election Audit Summary
-Analysis of election results is an important component of election oversight. Timely and accurate election results are necessary to build public confidence in democratic processes and support the legitimacy of elected officials. This proposal outlines a plan in which this election analysis code can be re-purposed to conduct future election audits to support these efforts.
+Analysis of election results is an important component of election oversight. Timely and accurate election audits are necessary to build public confidence in democratic processes and support the legitimacy of elected officials. This proposal outlines a plan in which this election analysis code can be re-purposed to conduct future election audits in support of these efforts.
 
 Some examples of code modification to facilitate future election audits include: 
 - Modification Example 1
